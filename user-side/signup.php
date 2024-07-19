@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\Exception;
 
 include "../backend/functions.php";
 include '../backend/session.php';
-require '../assets/vendor/php_mailer/autoload.php';
+require '../vendor/autoload.php';
 
 $errors = [];
 
